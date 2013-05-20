@@ -1,0 +1,12 @@
+﻿#mainTable
+{
+    border-collapse:collapse;
+    background-color:#485050;
+    }
+    #mainTable tr td
+    {
+        width:10px;
+        height:10px;
+        border:1px solid #696363;
+
+        }
