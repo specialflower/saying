@@ -69,7 +69,7 @@ function start() {
             continueAnimation();
         }
 
-    }, 100);
+    }, 30);
 
 }
 
