@@ -47,6 +47,7 @@ function start() {
             }
             if (isPoolEnd) {
                 clearInterval(timer);
+                popupAfter(5000);
                 $.fn.snow();
             }
             else {
@@ -69,7 +70,7 @@ function start() {
             continueAnimation();
         }
 
-    }, 100);
+    }, 50);
 
 }
 
@@ -106,3 +107,10 @@ function continueAnimation() {
     }
 }
 
+function popupAfter(milliseconds) {
+    $("#popup").css("display", "block");
+    setTimeout(function () {
+
+        $("#popup").fadeIn(3000);
+    }, milliseconds);
+}
