@@ -70,7 +70,7 @@ function start() {
             continueAnimation();
         }
 
-    }, 50);
+    }, 70);
 
 }
 
