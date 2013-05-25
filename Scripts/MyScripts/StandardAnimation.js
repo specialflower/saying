@@ -4,7 +4,7 @@ var isPoolEnd = false;
 var currentRowIndex = 0;
 var currentColumnIndex = -1;
 var pageCurrentRowIndex = 20;
-var pageCurrentColumnIndex = 29;
+var pageCurrentColumnIndex = 20;
 var binaryMatrixArray = new Array();
 
 function calculatePageStartIndex() {
@@ -61,7 +61,7 @@ function start() {
                 currentRowIndex = 0;
                 currentColumnIndex = -1;
                 pageCurrentRowIndex = 20;
-                pageCurrentColumnIndex = 29;
+                pageCurrentColumnIndex = 20;
                 continueAnimation();
 
             }
@@ -88,7 +88,7 @@ function continueAnimation() {
                 currentRowIndex++;
                 currentColumnIndex = 0;
                 pageCurrentRowIndex++;
-                pageCurrentColumnIndex = 30;
+                pageCurrentColumnIndex = 21;
             }
             else {
                 currentColumnIndex += 1;
