@@ -12,23 +12,23 @@
         }
 #popup
 {
-    width: 240px;
-    height: 100px;
-    top: 40%;
-    left: 40%;
-    position: absolute;
+    width: 250px;
+    height: 140px;
+    top: 0px;
+    right:0px;
+    position: fixed;
     display: none;
     background-color:#fff
 }
 
 .popup_content
 {
-    padding-top: 20%;
-    height: 80px;
+    padding-top: 20px;
+    height: 90px;
 }
 
 .pupup_footer
 {
-    height: 20px;
+    height: 30px;
 }
 
